@@ -3,5 +3,19 @@
   }
   body {
     font-size: 14px;
+
   }
-  
+
+
+.owl-carousel img{
+  width: 375px;
+  height: 240;;
+}
+
+.textcarousel{
+  background-color: red;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}

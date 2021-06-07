@@ -1,17 +1,16 @@
-
-
-
-
-
 <!DOCTYPE html>
-<html>
-
+<html lang="fr" dir="ltr">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-    <link href="./main.css" rel="stylesheet" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<title>Accueil</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>
 
@@ -26,12 +25,64 @@
 </div>
 
 <!-- Carrousel -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+
+
+  <div class="owl-carousel">
+
+  <div class="image"> <img src="img/jardin.jpg" alt="">
+    <div class="textcarousel"> <h2>On a marché sur la Lune</h2><br><h3>Salut</h3></div></div>
+  <img class="image" src="img/jardin.jpg" alt="">
+  <img class="image" src="img/jardin.jpg" alt="">
+  <img class="image" src="img/jardin.jpg" alt="">
+  <img class="image" src="img/jardin.jpg" alt="">
+
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items:1,
+    loop:true
+
+  });
+
+
+
+
+});
+</script>
+
+
 
 
 
 <!-- themes tendance  -->
 
+<div class="tendances">
 
+  <h2>Thèmes tendances</h2>
+  <div class="tous">Tous les thèmes</div>
+
+  <div class="untheme">
+    <div class="icones">
+      <img src="#" alt="">
+      </div>
+      <p>Sport</p>
+  </div>
+
+  <div class="untheme">
+    <div class="icones">
+      <img src="#" alt="">
+      </div>
+      <p>Mode</p>
+  </div>
+
+
+</div>
 
 <!-- Direct à venir -->
 

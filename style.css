@@ -41,7 +41,7 @@ color: #000000;
 }
 
 .h2{
-  position: absolute; 
+  position: absolute;
 
 font-family: Inter;
 font-style: normal;
@@ -369,3 +369,16 @@ border-radius: 7px;
   color: inherit
 }
 
+/*--------------------------- PAge DIrect*/
+.live img{
+  position: absolute;
+  width: 375px;
+  height: 227px;
+  left: 0px;
+  top: -20px;
+}
+
+.directtitre{
+  padding-top: 200px;
+  
+}

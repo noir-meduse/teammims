@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
    <script src="sketch.js"></script>
+   <link rel="stylesheet" href="style.css">
   <title>Direct</title>
 </head>
 <body>
-  
+
+<div class="live"> <img src="img/jardin.jpg" alt=""> </div>
+
+<div class="directtitre">
+  <h2>La renaissance</h2>
+  <p>PseudoCool</p>
+  <div class="suivre">Suivre</div>
+  <img class="pp" src="" alt="">
+</div>
+  <!-- Tab bar -->
+
+<iframe src="tabbar/index.html" frameborder="0" class="menu" id="menu"></iframe>
+<script>
+  $("#menu").on("load", function() {
+    let head = $("#menu").contents().find("head");
+    let css = '<style>.tab-bar-item-2 {color:#5D4D3D}</style>';
+    $(head).append(css);
+  });
+</script>
+
+
+<!-- /Tab bar -->
 </body>
 </html>

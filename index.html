@@ -5,6 +5,8 @@
 <title>Accueil</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
@@ -72,7 +74,7 @@
     <div class="icones">
       <img src="#" alt="">
       </div>
-      <p>Sport</p>
+      <p>Sport !!!!!</p>
   </div>
 
   <div class="untheme">
@@ -95,7 +97,17 @@
 
 <!-- Tab bar -->
 
-<iframe src="tabbar/index.html" frameborder="0" class="menu"></iframe>
+<iframe src="tabbar/index.html" frameborder="0" class="menu" id="menu"></iframe>
+<script>
+  $("#menu").on("load", function() {
+    let head = $("#menu").contents().find("head");
+    let css = '<style>.tab-bar-item-1 {color:#5D4D3D}</style>';  
+    $(head).append(css);
+  });
+</script>
+
+
+<!-- /Tab bar -->
 
 </body>
 

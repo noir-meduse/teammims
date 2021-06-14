@@ -7,7 +7,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-
+margin: 0;
 
   }
 
@@ -28,7 +28,7 @@
 
  /*--------------------------- Code de Tristan sur les boutons et caddress */
 
-.h1{
+h1{
   position: absolute;
 
 font-family: Ubuntu;
@@ -40,20 +40,18 @@ line-height: 21px;
 color: #000000;
 }
 
-.h2{
-  position: absolute;
-
+h2{
 font-family: Inter;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 20px;
 line-height: 19px;
 
 color: #000000;
 }
 
 
-.h3{
+h3{
   position: absolute;
 font-family: Inter;
 font-style: normal;
@@ -63,7 +61,7 @@ line-height: 17px;
 }
 
 
-.h4{
+h4{
   position: absolute;
 
 font-family: Inter;
@@ -73,7 +71,7 @@ font-size: 12px;
 line-height: 15px;
 }
 
-.h5{
+h5{
   position: absolute;
 
 font-family: Inter;
@@ -371,14 +369,60 @@ border-radius: 7px;
 
 /*--------------------------- PAge DIrect*/
 .live img{
-  position: absolute;
+
   width: 375px;
-  height: 227px;
+  height: 207px;
   left: 0px;
   top: -20px;
 }
 
+
 .directtitre{
-  padding-top: 200px;
+  padding-left: 27px;
+  background-color: red;
+}
+
+.pseudo{
+  padding-left: 27px;
   
+  background-color: red;
+
+}
+.suivre{
+  background-color: #FF9A2D;
+
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  border-radius: 8px;
+  color: white;
+  font-style: Medium;
+  float: right;
+}
+
+.pp{
+  width: 24px;
+  height: 24px;
+  float: right;
+
+
+}
+
+
+.tableau{
+  margin-top: 60px;
+  background-color: grey;
+  width: 375px;
+  height: 391px;
+}
+
+.chatbox{
+  width: 375px;
+  height: 45px;
+  background: #41B7A1;
+  border-top-left-radius:8px ;
+  border-top-right-radius:8px;
+
 }

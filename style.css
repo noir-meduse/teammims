@@ -368,3 +368,46 @@ border-radius: 7px;
 }
 
 /*--------------------------- PAge DIrect*/
+<<<<<<< HEAD
+.live img{
+
+  width: 375px;
+  height: 207px;
+  left: 0px;
+  top: -20px;
+}
+
+.directtitre{
+
+  padding-top: 0px;
+  padding-left: 27px;
+
+}
+
+.suivre{
+
+  position: absolute;
+  background-color: #FF9A2D;
+
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  border-radius: 8px;
+
+}
+
+.tableau{
+  background-color: grey;
+  width: 375px;
+  height: 391px;
+}
+
+.chatbox{
+  width: 375px;
+  height: 45px;
+  background: #41B7A1;
+  border-top-left-r
+=======
+>>>>>>> b894f4d2e8ee2ee8c8e1c44750645752e8164aa2

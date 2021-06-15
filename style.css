@@ -2,6 +2,366 @@
     box-sizing: border-box;
   }
   body {
-    font-size: 14px;
+  font-size: 14px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+
+
   }
-  
+
+
+.owl-carousel img{
+  width: 375px;
+  height: 240;;
+}
+
+.textcarousel{
+  background-color: red;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+ /*--------------------------- Code de Tristan sur les boutons et caddress */
+
+.h1{
+  position: absolute;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
+
+.h2{
+  position: absolute;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+
+.h3{
+  position: absolute;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+
+
+.h4{
+  position: absolute;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+}
+
+.h5{
+  position: absolute;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+}
+
+
+.iconerecherche{
+  position: absolute;
+  left: 74.93%;
+  right: 18.67%;
+  top: 1.05%;
+  bottom: 97.36%;
+}
+
+.boutoncompte{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 328px;
+  top: 16px;
+
+}
+
+
+.boutontous{
+  position: absolute;
+  width: 152px;
+  height: 25px;
+  left: 208px;
+  top: 324px;
+
+  background: #FFFFFF;
+  /* blurpop */
+
+  box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+  border-radius: 8px;
+  }
+
+.boutonthème{
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  left: 19px;
+  top: 371px;
+
+  background: #FFFFFF;
+  /* blurpop */
+
+  box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+  border-radius: 15px;
+}
+
+.boutontag{
+  position: absolute;
+  width: 67px;
+  height: 26px;
+  left: 27px;
+  top: 765px;
+
+  background: #20A990;
+  border-radius: 5px;
+}
+
+
+.cardpodcast{
+  position: absolute;
+  width: 333px;
+  height: 62px;
+  left: 21px;
+  top: 1140px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+
+.cardecoute{
+  position: absolute;
+  width: 375px;
+  height: 56px;
+  left: 0px;
+  top: 1389px;
+
+  background: #20A990;
+}
+
+.iconecoeur{
+  position: absolute;
+  left: 82.67%;
+  right: 12.53%;
+  top: 92.88%;
+  bottom: 5.93%;
+
+}
+
+.boutonabonnement{
+  position: absolute;
+width: 165px;
+height: 37px;
+left: 169px;
+top: 76px;
+
+background: #FFFFFF;
+/* blurpop */
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+/* Vector */
+position: absolute;
+left: 68%;
+right: 28.27%;
+top: 4.59%;
+bottom: 94.43%;
+
+background: #B8A796;
+}
+
+.boutontendance{
+  position: absolute;
+width: 165px;
+height: 37px;
+left: 43px;
+top: 75px;
+
+background: #FFFFFF;
+/* blurpop */
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+/* Iconly/Bold/Activity */
+position: absolute;
+left: 29.6%;
+right: 64%;
+top: 4.76%;
+bottom: 93.83%;
+}
+
+.cardlive{
+  position: absolute;
+  width: 343px;
+  height: 179px;
+  left: 16px;
+  top: 359px;
+}
+
+.cardlivetext{
+  position: absolute;
+width: 343px;
+height: 71px;
+left: 16px;
+top: 1049px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+.compteutilisateur{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 29px;
+  top: 550px;
+}
+
+.fleche{
+  position: absolute;
+width: 28px;
+height: 28px;
+left: 177px;
+top: 1142px;
+
+}
+
+.iconeinfo{
+  position: absolute;
+left: 91.2%;
+right: 8%;
+top: 30.11%;
+bottom: 69.23%;
+
+background: #5D4D3D;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.boutonsuivre{
+  position: absolute;
+width: 84px;
+height: 28px;
+left: 223px;
+top: 228px;
+
+background: #FF9A2D;
+/* blurpop */
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+}
+
+.boutonquizz{
+  position: absolute;
+width: 150px;
+height: 31px;
+left: 196px;
+top: 428px;
+
+background: #FFFFFF;
+/* blurpop */
+
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+}
+
+
+.cardecrire{
+  position: absolute;
+width: 375px;
+height: 45px;
+left: 0px;
+top: 703px;
+
+background: #41B7A1;
+/* blurpop */
+
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+}
+
+
+.boutonsignaler{
+  position: absolute;
+left: 68.8%;
+right: 24.8%;
+top: 87.93%;
+bottom: 9.11%;
+}
+
+.boutonpartagerecran{
+  position: absolute;
+left: 78.93%;
+right: 14.67%;
+top: 87.93%;
+bottom: 9.11%;
+}
+
+.spectateur{
+  position: absolute;
+width: 87px;
+height: 21px;
+left: 274px;
+top: 68px;
+
+background: #FF9A2D;
+border-radius: 7px;
+}
+
+/*--------------------------- Code de Tristan sur les boutons et caddress */
+
+
+/*--------------------------- Code de May sur les tabbarres*/
+
+.main-body {
+  font-size: 14px;
+  height: 100vh;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.tab-bar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.tab-bar-item a {
+  display: inline-block;
+
+
+}

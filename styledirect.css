@@ -1,0 +1,60 @@
+.live img{
+
+  width: 375px;
+  height: 207px;
+  left: 0px;
+  top: -20px;
+}
+
+
+.directtitre{
+  position: relative;
+  padding-left: 27px;
+
+  margin: 0px;
+}
+
+.pseudo{
+  position: absolute;
+  margin-left: 27px;
+  margin-top: -10px;
+
+
+
+}
+.suivre{
+  background-color: #FF9A2D;
+
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  border-radius: 8px;
+  color: white;
+  font-style: Medium;
+  float: right;
+}
+
+.pp{
+  width: 24px;
+  height: 24px;
+  float: right;
+}
+
+
+.tableau{
+  margin-top: 60px;
+  background-color: grey;
+  width: 375px;
+  height: 391px;
+}
+
+.chatbox{
+  width: 375px;
+  height: 45px;
+  background: #41B7A1;
+  border-top-left-radius:8px ;
+  border-top-right-radius:8px;
+
+}

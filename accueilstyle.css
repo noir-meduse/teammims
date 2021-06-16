@@ -16,5 +16,53 @@ overflow-x: scroll;
 flex-grow: 1;
 flex-shrink: 0;
 flex-basis: 450px;
+}
+
+.themesicons-item-1 {
+  text-align: center;
 
 }
+
+.themesicons-item-2 {
+  text-align: center;
+}
+
+.themesicons-item-3 {
+  text-align: center;
+}
+.themesicons-item-4 {
+  text-align: center;
+}
+.themesicons-item-5 {
+  text-align: center;
+}
+.themesicons-item-6 {
+  text-align: center;
+}
+.themesicons-item-7 {
+  text-align: center;
+}
+
+.themesicons span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.tousthemes{
+  padding-top: 5px;
+   grid-area: c;
+   background-color: #FF9A2D;
+   margin-top: 10px;
+   width: 148px;
+   height: 25px;
+   text-align: center;
+   border-radius: 8px;
+   color: black;
+   font-style: Medium;
+   background: #FFFFFF;
+
+   box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+   border-radius: 15px;

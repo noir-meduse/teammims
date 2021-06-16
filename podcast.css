@@ -1,0 +1,191 @@
+h2{
+
+font-size: 16px;
+width: auto;
+margin-top: 11%;
+text-align: center;
+}
+
+.arrow{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 30px;
+  top: 38px;
+}
+
+
+/* pseudo */
+h3{
+  color:#B8A796;
+  grid-area: pa;
+  text-align: center;
+
+  margin-top: -0.1rem;
+  margin-bottom: auto;
+}
+
+/* astronomie */
+h4{
+  position: relative;
+  margin-top: -0.7rem;
+  color:#FF9A2D;
+  text-align: center;
+}
+
+.pcpdp{
+  grid-area:pb;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pcpseudo{
+  width: 27%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1.5rem);
+  grid-template-areas:
+  "pb pa ";
+}
+
+.lune{
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+
+  padding-top: 4%;
+  padding-bottom: 5%;
+
+}
+
+/* ---------------------------------barre action */
+.upload{
+  grid-area: aa;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pts{
+  grid-area: ab;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.heart{
+  grid-area: ac;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pcaction{
+  width: 46%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+  ".  aa . . ab . . ac  . ";
+}
+
+.divpcwb{
+  background-color: white;
+  width: 18%;
+  padding-top: 6%;
+  padding-bottom: 5%;
+
+  margin: auto;
+
+  border-radius: 100px;
+  text-align: center;
+  filter: drop-shadow(0 0 0.25rem grey);
+
+  margin-top: 16%;
+}
+
+
+
+
+
+
+/* ---------------------------------temps */
+
+.pcdebut{
+  grid-area: ta;
+}
+
+.pcfin{
+  grid-area: tb;
+}
+
+.temps{
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-areas:
+  " . ta . .  . . tb .";
+}
+
+/* ---------------------------------barre progression */
+.gris{
+grid-area: pa;
+width: 191px;
+height: 0px;
+left: 132px;
+top: 659px;
+
+border: 2px solid #B8B5B5;
+}
+
+.bleu{
+grid-area: pb;
+width: 80px;
+height: 0px;
+left: 50px;
+top: 659px;
+
+border: 2px solid #20A990;
+}
+
+.progression{
+  width: 73%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-template-areas:
+  " pb pa ";
+
+  padding-bottom: 8.8%;
+}
+
+ /* -----------------------------------menu pause */
+.back{
+  grid-area: a;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.play{
+  grid-area: b;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.next{
+  grid-area: c;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.pcmenu{
+  width: 57%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+  ". . a . b . c . .";
+}

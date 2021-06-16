@@ -1,0 +1,101 @@
+h2{
+  position: relative;
+  text-align: center;
+  margin-left: : auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+img{
+
+}
+
+/* ---------------------------------barre action */
+.upload{
+  grid-area: aa;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pts{
+  grid-area: ab;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.heart{
+  grid-area: ac;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.
+/* ---------------------------------barre progression */
+.gris{
+grid-area: pa;
+width: 191px;
+height: 0px;
+left: 132px;
+top: 659px;
+
+border: 2px solid #B8B5B5;
+}
+
+.bleu{
+grid-area: pb;
+width: 80px;
+height: 0px;
+left: 50px;
+top: 659px;
+
+border: 2px solid #20A990;
+}
+
+.progression{
+  margin-left: 40px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  " pa pb ";
+}
+
+ /* -----------------------------------menu pause */
+.back{
+  grid-area: a;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.play{
+  grid-area: b;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.next{
+  grid-area: c;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.pcmenu{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+  ". . a . b . c . .";
+}

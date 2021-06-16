@@ -28,9 +28,9 @@
 }
 
 
- /*--------------------------- Code de Tristan sur les boutons et caddress */
+ /*--------------------------- Code de Tristan  */
 
- .h1{
+ h1{
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -39,14 +39,14 @@
   color: #000000;
   text-decoration:none;
   }
-  
-  .h2{
+
+  h2{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  
+
   color: #000000;
   text-decoration:none;
   }
@@ -58,19 +58,19 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    
+
     color: #FFFFFF;
     text-decoration:none;
     }
-  
-  
+
+
   .h3orange{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  
+
   color: #FF9A2D;
   text-decoration:none;
   }
@@ -81,24 +81,24 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    
+
     color: rgb(255, 255, 255);
     text-decoration:none;
     }
-  
+
   .h3marron{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  
+
   color: #B8A796;
   text-decoration:none;
   }
-  
-  
-  .h4{
+
+
+  h4{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -118,8 +118,8 @@
     text-decoration:none;
     color: #FFFFFF;
     }
-  
-  .h5{
+
+  h5{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -128,7 +128,7 @@
   text-decoration:none;
   color: #000000;
   }
-  
+
 
 
 .iconerecherche{
@@ -246,12 +246,12 @@ color: #FFFFFF;
   padding-bottom: 5px;
   padding-left: 6px;
   padding-right: 6px;
-  
+
   background: #20A990;
   border-radius: 5px;
   text-decoration:none;
   color: #FFFFFF;
-  
+
   }
 
 .carddirect1{
@@ -407,175 +407,7 @@ border-radius: 8px;
 
 
 
-
-
-
-.iconecoeur{
-  position: absolute;
-  left: 82.67%;
-  right: 12.53%;
-  top: 92.88%;
-  bottom: 5.93%;
-
-}
-
-.boutonabonnement{
-  position: absolute;
-width: 165px;
-height: 37px;
-left: 169px;
-top: 76px;
-
-background: #FFFFFF;
-/* blurpop */
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-/* Vector */
-position: absolute;
-left: 68%;
-right: 28.27%;
-top: 4.59%;
-bottom: 94.43%;
-
-background: #B8A796;
-}
-
-.boutontendance{
-  position: absolute;
-width: 165px;
-height: 37px;
-left: 43px;
-top: 75px;
-
-background: #FFFFFF;
-/* blurpop */
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-/* Iconly/Bold/Activity */
-position: absolute;
-left: 29.6%;
-right: 64%;
-top: 4.76%;
-bottom: 93.83%;
-}
-
-.cardlive{
-  position: absolute;
-  width: 343px;
-  height: 179px;
-  left: 16px;
-  top: 359px;
-}
-
-.cardlivetext{
-  position: absolute;
-width: 343px;
-height: 71px;
-left: 16px;
-top: 1049px;
-
-background: #FFFFFF;
-border-radius: 8px;
-}
-
-.compteutilisateur{
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  left: 29px;
-  top: 550px;
-}
-
-.fleche{
-  position: absolute;
-width: 28px;
-height: 28px;
-left: 177px;
-top: 1142px;
-
-}
-
-.iconeinfo{
-  position: absolute;
-left: 91.2%;
-right: 8%;
-top: 30.11%;
-bottom: 69.23%;
-
-background: #5D4D3D;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.boutonsuivre{
-  position: absolute;
-width: 84px;
-height: 28px;
-left: 223px;
-top: 228px;
-
-background: #FF9A2D;
-/* blurpop */
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-}
-
-.boutonquizz{
-  position: absolute;
-width: 150px;
-height: 31px;
-left: 196px;
-top: 428px;
-
-background: #FFFFFF;
-/* blurpop */
-
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-}
-
-
-.cardecrire{
-  position: absolute;
-width: 375px;
-height: 45px;
-left: 0px;
-top: 703px;
-
-background: #41B7A1;
-/* blurpop */
-
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-}
-
-
-.boutonsignaler{
-  position: absolute;
-left: 68.8%;
-right: 24.8%;
-top: 87.93%;
-bottom: 9.11%;
-}
-
-.boutonpartagerecran{
-  position: absolute;
-left: 78.93%;
-right: 14.67%;
-top: 87.93%;
-bottom: 9.11%;
-}
-
-.spectateur{
-  position: absolute;
-width: 87px;
-height: 21px;
-left: 274px;
-top: 68px;
-
-background: #FF9A2D;
-border-radius: 7px;
-}
-
-/*--------------------------- Code de Tristan sur les boutons et caddress */
+/*--------------------------- Code de Tristan s */
 
 
 /*--------------------------- Code de May sur les tabbarres*/

@@ -1,0 +1,192 @@
+/*--------------------------- Code de May themes tendance accueil*/
+
+.h1{
+ font-family: 'Ubuntu', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 18px;
+ line-height: 21px;
+ color: #000000;
+ text-decoration:none;
+ }
+
+ .h2{
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 19px;
+
+ color: #000000;
+ text-decoration:none;
+ }
+
+
+ .h3orange{
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+
+ color: #FF9A2D;
+ text-decoration:none;
+ }
+
+ /*--------------------------- header*/
+
+.header {
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.logo {
+
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.search {
+
+  display:flex;
+  margin-right: 20px;
+}
+
+.loupe {
+
+  margin-right: 20px;
+
+}
+/*barre btn du haut*/
+
+ .msg{
+   grid-area: e;
+   border-radius: 8px;
+
+   background: #FFFFFF;
+   box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+   border-radius: 8px;
+   z-index: 1;
+
+   width: 173px;
+   height: 37px;
+   margin-left: 10px;
+   margin-top: -10px;
+ }
+
+ .msg img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 9px;
+   margin-bottom: auto;
+
+ }
+
+ .wb{
+   grid-area: f;
+   border-radius: 8px;
+
+   background: #B8A796;
+   box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+   border-radius: 8px;
+   z-index: 2;
+
+   width: 173px;
+   height: 37px;
+   margin-top: -10px;
+ }
+
+ .wb img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 6px;
+   margin-bottom: auto;
+
+ }
+
+/*themes tendances*/
+
+
+
+.themesicons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+/**/
+
+overflow-x: scroll;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 450px;
+}
+
+.themesicons-item-1 {
+  text-align: center;
+
+}
+
+.themesicons-item-2 {
+  text-align: center;
+}
+
+.themesicons-item-3 {
+  text-align: center;
+}
+.themesicons-item-4 {
+  text-align: center;
+}
+.themesicons-item-5 {
+  text-align: center;
+}
+.themesicons-item-6 {
+  text-align: center;
+}
+.themesicons-item-7 {
+  text-align: center;
+}
+
+.themesicons span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.tousthemes{
+  padding-top: 5px;
+   grid-area: c;
+   background-color: #FF9A2D;
+   margin-top: 10px;
+   width: 148px;
+   height: 25px;
+   text-align: center;
+   border-radius: 8px;
+   color: black;
+   font-style: Medium;
+   background: #FFFFFF;
+
+   box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+   border-radius: 15px;
+   text-decoration: none;
+}
+
+.tendances{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: center;
+  margin-top: 10px;
+
+ }

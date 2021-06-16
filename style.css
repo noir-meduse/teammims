@@ -30,58 +30,71 @@
 
  /*--------------------------- Code de Tristan sur les boutons et caddress */
 
-h1{
-  position: absolute;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-color: #000000;
-}
-
-h2{
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 19px;
-
-color: #000000;
-}
-
-
-h3{
-  position: absolute;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-}
-
-
-h4{
-  position: absolute;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px;
-}
-
-h5{
-  position: absolute;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 12px;
-}
+ .h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration:none;
+  }
+  
+  .h2{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+  text-decoration:none;
+  }
+  
+  
+  .h3orange{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #FF9A2D;
+  text-decoration:none;
+  }
+  
+  .h3marron{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #B8A796;
+  text-decoration:none;
+  }
+  
+  
+  .h4{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration:none;
+  color: #000000;
+  }
+  
+  .h5{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration:none;
+  color: #000000;
+  }
+  
 
 
 .iconerecherche{
@@ -130,28 +143,178 @@ line-height: 12px;
   border-radius: 15px;
 }
 
-.boutontag{
-  position: absolute;
-  width: 67px;
-  height: 26px;
-  left: 27px;
-  top: 765px;
 
-  background: #20A990;
-  border-radius: 5px;
+/* conférence a venir */
+
+.Titreconf{
+  margin-left: 17px;
 }
 
 
+/* .Date{
+  display: flex;
+  justify-content: space-between;
+  top: 20px;
+  color: #FF9A2D;
+} */
+
+
+.cardlinks{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 5px;
+
+}
+
+.cardlinks2{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+.tag{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+  color: #FFFFFF;
+}
+
+
+.pp{
+  border-radius: 20px;
+  width: 24px;
+	height: 24px;
+}
+
+
+
+
+
+.boutontag{
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 16px;
+padding-right: 16px;
+
+background: #20A990;
+border-radius: 5px;
+text-decoration:none;
+color: #FFFFFF;
+
+}
+
+.carddirect1{
+width: 154px;
+height: 245px;
+left: 22px;
+top: 1236px;
+
+margin-left: 17px;
+background: #FFFFFF;
+/* blurpop */
+
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+}
+
+
+.carddirect2{
+width: 154px;
+height: 245px;
+left: 22px;
+top: 1236px;
+
+margin-left: 17px;
+background: #FFFFFF;
+/* blurpop */
+
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+}
+
+
+.Direct{
+  width: 354px;
+  height: 260px;
+  left: 22px;
+  top: 1236px;
+
+  background: #FFFFFF;
+
+  display: flex;
+}
+
+.Direct2{
+  width: 354px;
+  height: 75px;
+  left: 22px;
+  top: 1236px;
+
+  background: #FFFFFF;
+
+  display: flex;
+}
+
+
+
+
+
+/* Reprendre le podcast */
+
 .cardpodcast{
-  position: absolute;
   width: 333px;
   height: 62px;
   left: 21px;
   top: 1140px;
 
+  margin-left: 17px;
+  display: flex;
+
   background: #FFFFFF;
   border-radius: 8px;
 }
+
+
+.cardlinks4{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 85px;
+
+}
+
+.cardlinks5{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 105px;
+  margin-top: 38px;
+  align-items: flex-end;
+}
+
+.pp2{
+  border-radius: 20px;
+  width: 15px;
+	height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .cardecoute{

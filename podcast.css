@@ -121,11 +121,12 @@ h4{
 }
 
 .temps{
-
+  width: 73%;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-areas:
-  " . ta . .  . . tb .";
+  "  ta  tb ";
 }
 
 /* ---------------------------------barre progression */

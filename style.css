@@ -4,7 +4,7 @@
   body {
   font-size: 14px;
 
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   margin: 0;
@@ -13,11 +13,13 @@
 
   }
 
+ /*--------------------------- carousel  */
 
 .owl-carousel img{
-  width: 375px;
+  width: 100%;
   height: 240;;
 }
+
 
 .textcarousel{
   background-color: red;
@@ -27,7 +29,139 @@
   transform: translate(-50%, -50%);
 }
 
+.spec{
+  position: relative;
+  margin-left: 73%;
 
+
+  text-align: center;
+  width: 87px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  background: #FF9A2D;
+  border-radius: 8px;
+  color:white;
+
+
+  font-size: 10px;
+  line-height: auto;
+}
+.carousela{
+  width:100%;
+  background-image:url("img/espace.png");
+  background-repeat: no-repeat;
+  padding-top:20px;
+  margin-top: 10px;
+}
+
+.carouselb{
+  width:100%;
+  background-image:url("img/mix.png");
+  background-repeat: no-repeat;
+  padding-top:20px;
+  margin-top: 10px;
+}
+
+.carouselc{
+  width:100%;
+  background-image:url("img/mongolfiere.png");
+  background-repeat: no-repeat;
+  padding-top:20px;
+  margin-top: 10px;
+}
+
+
+.caroutexte{
+
+  background-image: url("img/degrade.png");
+  height: 84px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 110px;
+
+
+}
+.titrecarou{
+  position: relative;
+  margin-left: 13%;
+  padding-top: 4%;
+  padding-bottom: 0.2%;
+
+  font-size: 18px;
+  color: white;
+}
+.pseudocarou{
+  position: relative;
+  margin-left: 13%;
+
+
+  font-size: 14px;
+  color: white;
+}
+.pseudocarou span{
+  color: #FF9A2D;
+}
+
+.reglebis{
+  grid-area: ra;
+
+  border:solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.regleter{
+  grid-area: rb;
+
+  border:solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.main{
+  grid-area: rc;
+
+  background-color: white;
+  border:solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.reglea{
+  width: 11%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-areas:
+  "rc rb ra";
+}
+
+.regleb{
+  width: 11%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-areas:
+  "ra rc rb";
+}
+
+.reglec{
+  width: 11%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-areas:
+  "ra rb rc";
+}
  /*--------------------------- Code de Tristan  */
 
  h1{

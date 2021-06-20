@@ -565,40 +565,48 @@ border-radius: 8px;
   margin-top: 20px;
 }
 
-.cardecoute2{
 
-  width: 377px;
-  height: 56px;
-  left: 0px;
-  top: 1389px;
-
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  margin-left: -10px;
-  margin-top: 20px;
-}
 
 
 
 
 
 /*--------------------------- Code de Tristan s */
+.cardecoute2{
 
+  width: 377px;
+  height: 100px;
+  left: 0px;
+  top: 1389px;
+  position: fixed;
+
+  background: #red;
+  display: flex;
+  flex-direction: column;
+
+}
 
 /*--------------------------- Code de May sur les tabbarres*/
+/* .html {
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+} */
 
 .main-body {
   font-size: 14px;
   height: 100vh;
-}
 
+}
 .menu {
   position: fixed;
+  position: bottom;
   bottom: 0;
   left: 0;
   height: 50px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .tab-bar {
@@ -606,11 +614,14 @@ border-radius: 8px;
   margin: 0;
   padding: 0;
 
+
   width: 100%;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+
 }
 
 
@@ -622,5 +633,14 @@ border-radius: 8px;
   display: inline-block;
   color: inherit
 }
+
+#rectblanc {
+  width  : 100px;
+  height : 50px;
+  background : green;
+  position: fixed;
+  position: bottom;
+}
+
 
 /*--------------------------- PAge DIrect*/

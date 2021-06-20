@@ -4,9 +4,16 @@
 <meta charset="UTF-8">
 <title>Accueil</title>
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="accueilstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 
 <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
@@ -18,15 +25,21 @@
 
 <body>
 
-<!-- header -->
+  <!-- header -->
 
-<div class="header">
-  <a class="logo" href="#"> <img src="#" alt="logo"></a>
-  <img src="#" alt="Recherche">
-  <img src="#" alt="Profil">
-</div>
+  <div class="header">
+    <a class="logo" href="#"> <img src="img/logo.png" alt="logo"></a>
 
-<!-- ------------------------- Code de BenJ sur le carousel et le début des themes tendance -->
+
+  <div class="search">
+
+
+    <img class="loupe" src="img/search.png" alt="Recherche">
+    <img src="img/profil.png" alt="Profil">
+  </div>
+    </div>
+
+<!---  Code de BenJ sur le carousel et le début des themes tendance -->
 <!-- Carrousel -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
@@ -35,12 +48,54 @@
 
   <div class="owl-carousel">
 
-  <div class="image"> <img src="img/jardin.jpg" alt="">
-    <div class="textcarousel"> <h2>On a marché sur la Lune</h2><br><h3>Salut</h3></div></div>
-  <img class="image" src="img/jardin.jpg" alt="">
-  <img class="image" src="img/jardin.jpg" alt="">
-  <img class="image" src="img/jardin.jpg" alt="">
-  <img class="image" src="img/jardin.jpg" alt="">
+    <div class="carousela">
+      <div class="spec">95 specateurs</div>
+
+      <div class="caroutexte">
+        <div class="titrecarou"> On a marché sur la Lune !</div>
+        <div class="pseudocarou"> Noédu44- <span>Astronomie</span></div>
+          <div class="reglea">
+            <div class="main"></div>
+            <div class="reglebis"></div>
+            <div class="regleter"></div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carouselb">
+      <div class="spec">18 specateurs</div>
+
+      <div class="caroutexte">
+        <div class="titrecarou"> La mixité culturelle</div>
+        <div class="pseudocarou"> LolaM- <span>Social</span></div>
+          <div class="regleb">
+            <div class="reglebis"></div>
+            <div class="regleter"></div>
+            <div class="main"></div>
+        </div>
+
+      </div>
+    </div>
+
+<!-- carousel mongolfiere -->
+  <div class="carouselc">
+    <div class="spec">34 specateurs</div>
+
+    <div class="caroutexte">
+      <div class="titrecarou"> L'histoire de la mongolfiere</div>
+      <div class="pseudocarou"> Victor78- <span>Histoire</span></div>
+        <div class="reglec">
+          <div class="reglebis"></div>
+          <div class="regleter"></div>
+          <div class="main"></div>
+      </div>
+
+    </div>
+  </div>
+
+
 
 </div>
 
@@ -68,36 +123,334 @@
 <div class="tendances">
 
   <h2>Thèmes tendances</h2>
-  <div class="tous">Tous les thèmes</div>
 
-  <div class="untheme">
-    <div class="icones">
-      <img src="#" alt="">
-      </div>
-      <p>Sport !!!!!</p>
-  </div>
+  <a href="#" class="tousthemes">Tous les thèmes</a>
 
-  <div class="untheme">
-    <div class="icones">
-      <img src="#" alt="">
-      </div>
-      <p>Mode</p>
-  </div>
+</div>
+
+
+<ul class="themesicons">
+
+  <li class="themesicons-item-1">
+    <img src="img/themesicons/modeicon.png" alt="themes-icon">
+    <span>Mode</span>
+
+  </li>
+
+  <li class="themesicons-item-2">
+    <img src="img/themesicons/cuisineicon.png" alt="themes-icon">
+    <span>Cuisine</span>
+  </li>
+
+  <li class="themesicons-item-3">
+    <img src="img/themesicons/sciencesicon.png" alt="themes-icon">
+    <span>Sciences</span>
+  </li>
+
+  <li class="themesicons-item-4">
+    <img src="img/themesicons/sporticon.png" alt="themes-icon">
+    <span>Sport</span>
+  </li>
+
+  <li class="themesicons-item-5">
+    <img src="img/themesicons/geoicon.png" alt="themes-icon">
+    <span>Géo</span>
+  </li>
+
+  <li class="themesicons-item-6">
+    <img src="img/themesicons/astroicon.png" alt="themes-icon">
+    <span>Astrologie</span>
+  </li>
+
+  <li class="themesicons-item-7">
+    <img src="img/themesicons/articon.png" alt="themes-icon">
+    <span>Art</span>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<!-- Conf à venir -->
+
+<!-- Direct à venir -->
+
+<div class="Titreconf">
+  <h1>Conférence à venir</h1>
+</div>
+
+
+<div class="Direct">
+
+
+
+
+<div class="carddirect1">
+  <img src="png/img1.png" alt="">
+
+<!-- <div class="Date">
+  <h4>19/04/21</h4>
+  <h4>0</h4>
+</div> -->
+
+<div class="cardlinks">
+  <a href="#" class="h2">Les femmes et le crossfit</a>
+  <a href="#" class="h3orange">Sport</a>
+</div>
+
+
+<div class="cardlinks2">
+  <img class="pp" src="png/pp.png" alt="">
+  <a href="#" class="h3marron">Mayonnaise</a>
+</div>
+
+<div class="tag">
+  <a href="#" class="boutontag">Sport</a>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="carddirect2">
+  <img src="png/legume.png" alt="">
+
+<!-- <div class="Date">
+  <h4>19/04/21</h4>
+  <h4>0</h4>
+</div> -->
+
+<div class="cardlinks">
+  <a href="#" class="h2">Légumes de saison estivale</a>
+  <a href="#" class="h3orange">Cuisine</a>
+</div>
+
+
+<div class="cardlinks2">
+  <img class="pp" src="png/pp.png" alt="">
+  <a href="#" class="h3marron">Sasuke56</a>
+</div>
+
+<div class="tag">
+  <a href="#" class="boutontag">Cuisine</a>
+</div>
+
+</div>
 
 
 </div>
 
-<!-- Direct à venir -->
+
+
+
+<div class="Direct">
+
+<div class="carddirect1">
+  <img src="png/maquillage.png" alt="">
+
+<!-- <div class="Date">
+  <h4>19/04/21</h4>
+  <h4>0</h4>
+</div> -->
+
+<div class="cardlinks">
+  <a href="#" class="h2">Le maquillage de théatre</a>
+  <a href="#" class="h3orange">Mode</a>
+</div>
+
+
+<div class="cardlinks2">
+  <img class="pp" src="png/pp.png" alt="">
+  <a href="#" class="h3marron">AileenZ</a>
+</div>
+
+<div class="tag">
+  <a href="#" class="boutontag2">Théatre</a>
+  <a href="#" class="boutontag2">Maquillage</a>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="carddirect2">
+  <img src="png/douche.png" alt="">
+
+<!-- <div class="Date">
+  <h4>19/04/21</h4>
+  <h4>0</h4>
+</div> -->
+
+<div class="cardlinks">
+  <a href="#" class="h2">Les ressources en eau</a>
+  <a href="#" class="h3orange">Géographie</a>
+</div>
+
+
+<div class="cardlinks2">
+  <img class="pp" src="png/pp.png" alt="">
+  <a href="#" class="h3marron">Coriandre</a>
+</div>
+
+<div class="tag">
+  <a href="#" class="boutontag2">Sciences</a>
+  <a href="#" class="boutontag2">Ecologie</a>
+</div>
+
+</div>
+
+
+</div>
 
 
 
 <!-- Reprendre le podcast -->
 
+<div class="Titreconf">
+  <h1>Reprendre le podcast</h1>
+</div>
+
+
+<div class="Direct2">
+
+<div class="cardpodcast">
+  <img src="png/play.png" alt="">
+
+
+  <div class="cardlinks4">
+    <a href="#" class="h2">La cuisine vegan</a>
+    <a href="#" class="h3orange">cuisine</a>
+  </div>
+
+  <div class="cardlinks5">
+    <img class="pp2" src="png/pp.png" alt="">
+    <a href="#" class="h3marron">Barnabé23</a>
+    <a href="#" class="h5">1.23.39</a>
+  </div>
+
+</div>
+</div>
+
+<div class="Direct2">
+
+<div class="cardpodcast">
+  <img src="png/play.png" alt="">
+
+
+  <div class="cardlinks4">
+    <a href="#" class="h2">La cuisine vegan</a>
+    <a href="#" class="h3orange">cuisine</a>
+  </div>
+
+  <div class="cardlinks5">
+    <img class="pp2" src="png/pp.png" alt="">
+    <a href="#" class="h3marron">Barnabé23</a>
+    <a href="#" class="h5">1.23.39</a>
+  </div>
+
+</div>
+</div>
+
+
+<div class="Direct2">
+
+<div class="cardpodcast">
+  <img src="png/play.png" alt="">
+
+
+  <div class="cardlinks4">
+    <a href="#" class="h2">La cuisine vegan</a>
+    <a href="#" class="h3orange">cuisine</a>
+  </div>
+
+  <div class="cardlinks5">
+    <img class="pp2" src="png/pp.png" alt="">
+    <a href="#" class="h3marron">Barnabé23</a>
+    <a href="#" class="h5">1.23.39</a>
+  </div>
+
+</div>
+</div>
+
+<div class="Direct2">
+
+<div class="cardpodcast">
+  <img src="png/play.png" alt="">
+
+
+  <div class="cardlinks4">
+    <a href="#" class="h2">La cuisine vegan</a>
+    <a href="#" class="h3orange">cuisine</a>
+  </div>
+
+  <div class="cardlinks5">
+    <img class="pp2" src="png/pp.png" alt="">
+    <a href="#" class="h3marron">Barnabé23</a>
+    <a href="#" class="h5">1.23.39</a>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+<!-- ecoute en cours  -->
+
+
+<div class="cardecoute">
+
+  <img class="imgplay"  src="png/ecoute.png" alt="">
+
+  <div class="cardlinks6">
+    <a href="#" class="h2blanc">La cuisine vegan</a>
+    <a href="#" class="h3blanc">Barnabé23</a>
+  </div>
+
+  <img class="coeur" src="png/Coeur.png" alt="">
+
+</div>
+
+
+
+<div class="cardecoute2">
+</div>
+
+
+
+
 
 
 <!-- Tab bar -->
+<div class="rectblanc">
 
-<iframe src="tabbar/index.html" frameborder="0" class="menu"></iframe>
+</div>
+
+<iframe src="tabbar/index.html" frameborder="0" class="menu" id="menu"></iframe>
+<script>
+  $("#menu").on("load", function() {
+    let head = $("#menu").contents().find("head");
+    let css = '<style>.tab-bar-item-1 {color:#5D4D3D}</style>';
+    $(head).append(css);
+  });
+</script>
+
+
+
+<!-- /Tab bar -->
 
 </body>
 

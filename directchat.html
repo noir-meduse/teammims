@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="stylechat.css">
+  <title>Direct Chat</title>
+</head>
+<body>
+
+
+    <div class="live"> <img src="img/fillestream.png" alt=""> </div>
+  <div class="wrapper">
+    <div class="directtitre"><h2>La renaissance</h2></div>
+    <div class="pseudo">PseudoCool</div>
+    <img class="pp" src="img/pdp.png" alt="">
+    <div class="suivre">Suivre</div>
+
+    <a href="directwb.html" class="wb"><img src="img/bwb.png" alt=""></a>
+    <a href="directchat.html" class="msg"><img src="img/bmsg.png" alt=""></a>
+  </div>
+
+
+
+<div class="tableau">   <script src="sketch.js"></script></div>
+<div class="chatbox">
+  <p>Ecrire</p>
+  <img class="report" src="img/report.png" alt="">
+  <img class="send" src="img/send.png" alt="">
+  <img class="voice" src="img/voice.png" alt="">
+</div>
+  <!-- Tab bar -->
+
+<iframe src="tabbar/index.html" frameborder="0" class="menu" id="menu"></iframe>
+<script>
+  $("#menu").on("load", function() {
+    let head = $("#menu").contents().find("head");
+    let css = '<style>.tab-bar-item-2 {color:#5D4D3D}</style>';
+    $(head).append(css);
+  });
+</script>
+
+
+<!-- /Tab bar -->
+
+</body>
+</html>

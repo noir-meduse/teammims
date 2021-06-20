@@ -4,18 +4,22 @@
   body {
   font-size: 14px;
 
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
-
+  margin: 0;
+  padding: 0;
+  width: 100%;
 
   }
 
+ /*--------------------------- carousel  */
 
 .owl-carousel img{
-  width: 375px;
+  width: 100%;
   height: 240;;
 }
+
 
 .textcarousel{
   background-color: red;
@@ -25,63 +29,281 @@
   transform: translate(-50%, -50%);
 }
 
+.spec{
+  position: relative;
+  margin-left: 73%;
 
- /*--------------------------- Code de Tristan sur les boutons et caddress */
 
-.h1{
-  position: absolute;
+  text-align: center;
+  width: 87px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  background: #FF9A2D;
+  border-radius: 8px;
+  color:white;
 
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-color: #000000;
+
+  font-size: 10px;
+  line-height: auto;
+}
+.carousela{
+  width:100%;
+  background-image:url("img/espace.png");
+  background-repeat: no-repeat;
+  padding-top:20px;
+  margin-top: 10px;
 }
 
-.h2{
-  position: absolute;
+.carouselb{
+  width:100%;
+  background-image:url("img/mix.png");
+  background-repeat: no-repeat;
+  padding-top:20px;
+  margin-top: 10px;
+}
 
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
+.carouselc{
+  width:100%;
+  background-image:url("img/mongolfiere.png");
+  background-repeat: no-repeat;
+  padding-top:20px;
+  margin-top: 10px;
 }
 
 
-.h3{
-  position: absolute;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
+.caroutexte{
+
+  background-image: url("img/degrade.png");
+  height: 84px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 110px;
+
+
+}
+.titrecarou{
+  position: relative;
+  margin-left: 13%;
+  padding-top: 4%;
+  padding-bottom: 0.2%;
+
+  font-size: 18px;
+  color: white;
+}
+.pseudocarou{
+  position: relative;
+  margin-left: 13%;
+
+
+  font-size: 14px;
+  color: white;
+}
+.pseudocarou span{
+  color: #FF9A2D;
 }
 
+.reglebis{
+  grid-area: ra;
 
-.h4{
-  position: absolute;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px;
+  border:solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
 }
 
-.h5{
-  position: absolute;
+.regleter{
+  grid-area: rb;
 
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 12px;
+  border:solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
 }
+
+.main{
+  grid-area: rc;
+
+  background-color: white;
+  border:solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.reglea{
+  width: 11%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-areas:
+  "rc rb ra";
+}
+
+.regleb{
+  width: 11%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-areas:
+  "ra rc rb";
+}
+
+.reglec{
+  width: 11%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-areas:
+  "ra rb rc";
+}
+ /*--------------------------- Code de Tristan  */
+
+ h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration:none;
+  }
+
+  .h1{
+   font-family: 'Ubuntu', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   text-decoration:none;
+   }
+
+  h2{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+  text-decoration:none;
+  }
+
+  .h2{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+  text-decoration:none;
+  }
+
+
+  .h2blanc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    text-decoration:none;
+    }
+
+
+  .h3orange{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FF9A2D;
+  text-decoration:none;
+  }
+
+  .h3blanc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    }
+
+  .h3marron{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #B8A796;
+  text-decoration:none;
+  }
+
+
+  h4{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration:none;
+  color: #000000;
+  }
+
+  .h4{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration:none;
+  color: #000000;
+  }
+
+
+  .h4blanc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration:none;
+    color: #FFFFFF;
+    }
+
+  h5{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration:none;
+  color: #000000;
+  }
+
+  .h5{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration:none;
+  color: #000000;
+  }
+
 
 
 .iconerecherche{
@@ -130,221 +352,261 @@ line-height: 12px;
   border-radius: 15px;
 }
 
-.boutontag{
-  position: absolute;
-  width: 67px;
-  height: 26px;
-  left: 27px;
-  top: 765px;
 
-  background: #20A990;
-  border-radius: 5px;
+/* conférence a venir */
+
+.Titreconf{
+  margin-left: 17px;
 }
 
 
+/* .Date{
+  display: flex;
+  justify-content: space-between;
+  top: 20px;
+  color: #FF9A2D;
+} */
+
+
+.cardlinks{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 5px;
+
+}
+
+.cardlinks2{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+.tag{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+  color: #FFFFFF;
+}
+
+
+.pp{
+  border-radius: 20px;
+  width: 24px;
+	height: 24px;
+}
+
+
+
+
+
+.boutontag{
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 16px;
+padding-right: 16px;
+
+background: #20A990;
+border-radius: 5px;
+text-decoration:none;
+color: #FFFFFF;
+
+}
+
+
+.boutontag2{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+  background: #20A990;
+  border-radius: 5px;
+  text-decoration:none;
+  color: #FFFFFF;
+
+  }
+
+.carddirect1{
+width: 154px;
+height: 245px;
+left: 22px;
+top: 1236px;
+
+margin-left: 17px;
+background: #FFFFFF;
+
+/* blurpop */
+
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+}
+
+
+.carddirect2{
+width: 154px;
+height: 245px;
+left: 22px;
+top: 1236px;
+
+margin-left: 17px;
+background: #FFFFFF;
+/* blurpop */
+
+box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+border-radius: 8px;
+}
+
+
+.Direct{
+  width: 354px;
+  height: 260px;
+  left: 22px;
+  top: 1236px;
+
+  background: #FFFFFF;
+
+  display: flex;
+}
+
+.Direct2{
+  width: 354px;
+  height: 75px;
+  left: 22px;
+  top: 1236px;
+
+  background: #FFFFFF;
+
+  display: flex;
+}
+
+
+
+
+
+/* Reprendre le podcast */
+
 .cardpodcast{
-  position: absolute;
   width: 333px;
   height: 62px;
   left: 21px;
   top: 1140px;
+
+  margin-left: 17px;
+  display: flex;
 
   background: #FFFFFF;
   border-radius: 8px;
 }
 
 
-.cardecoute{
+.cardlinks4{
   position: absolute;
-  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 85px;
+
+}
+
+.cardlinks5{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 105px;
+  margin-top: 38px;
+  align-items: flex-end;
+}
+
+.pp2{
+  border-radius: 20px;
+  width: 15px;
+	height: 15px;
+}
+
+
+
+/* ecoute */
+
+.cardecoute{
+
+  width: 377px;
   height: 56px;
   left: 0px;
   top: 1389px;
 
   background: #20A990;
+  margin-top: 10px;
+  margin-left: -10px;
 }
 
-.iconecoeur{
+.imgplay{
+  margin-top: 9px;
   position: absolute;
-  left: 82.67%;
-  right: 12.53%;
-  top: 92.88%;
-  bottom: 5.93%;
-
 }
 
-.boutonabonnement{
+
+.cardlinks6{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-top: 10px;
   position: absolute;
-width: 165px;
-height: 37px;
-left: 169px;
-top: 76px;
-
-background: #FFFFFF;
-/* blurpop */
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-/* Vector */
-position: absolute;
-left: 68%;
-right: 28.27%;
-top: 4.59%;
-bottom: 94.43%;
-
-background: #B8A796;
-}
-
-.boutontendance{
-  position: absolute;
-width: 165px;
-height: 37px;
-left: 43px;
-top: 75px;
-
-background: #FFFFFF;
-/* blurpop */
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-/* Iconly/Bold/Activity */
-position: absolute;
-left: 29.6%;
-right: 64%;
-top: 4.76%;
-bottom: 93.83%;
-}
-
-.cardlive{
-  position: absolute;
-  width: 343px;
-  height: 179px;
-  left: 16px;
-  top: 359px;
-}
-
-.cardlivetext{
-  position: absolute;
-width: 343px;
-height: 71px;
-left: 16px;
-top: 1049px;
-
-background: #FFFFFF;
-border-radius: 8px;
-}
-
-.compteutilisateur{
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  left: 29px;
-  top: 550px;
-}
-
-.fleche{
-  position: absolute;
-width: 28px;
-height: 28px;
-left: 177px;
-top: 1142px;
-
-}
-
-.iconeinfo{
-  position: absolute;
-left: 91.2%;
-right: 8%;
-top: 30.11%;
-bottom: 69.23%;
-
-background: #5D4D3D;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.boutonsuivre{
-  position: absolute;
-width: 84px;
-height: 28px;
-left: 223px;
-top: 228px;
-
-background: #FF9A2D;
-/* blurpop */
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
-}
-
-.boutonquizz{
-  position: absolute;
-width: 150px;
-height: 31px;
-left: 196px;
-top: 428px;
-
-background: #FFFFFF;
-/* blurpop */
-
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
-border-radius: 8px;
 }
 
 
-.cardecrire{
-  position: absolute;
-width: 375px;
-height: 45px;
-left: 0px;
-top: 703px;
-
-background: #41B7A1;
-/* blurpop */
-
-box-shadow: 0px 1px 6px rgba(178, 163, 148, 0.3);
+.coeur{
+  width: 50px;
+  height: 20px;
+  margin-left: 300px;
+  margin-top: 20px;
 }
 
 
-.boutonsignaler{
-  position: absolute;
-left: 68.8%;
-right: 24.8%;
-top: 87.93%;
-bottom: 9.11%;
+
+
+
+
+
+/*--------------------------- Code de Tristan s */
+.cardecoute2{
+
+  width: 377px;
+  height: 100px;
+  left: 0px;
+  top: 1389px;
+  position: fixed;
+
+  background: #red;
+  display: flex;
+  flex-direction: column;
+
 }
-
-.boutonpartagerecran{
-  position: absolute;
-left: 78.93%;
-right: 14.67%;
-top: 87.93%;
-bottom: 9.11%;
-}
-
-.spectateur{
-  position: absolute;
-width: 87px;
-height: 21px;
-left: 274px;
-top: 68px;
-
-background: #FF9A2D;
-border-radius: 7px;
-}
-
-/*--------------------------- Code de Tristan sur les boutons et caddress */
-
 
 /*--------------------------- Code de May sur les tabbarres*/
+/* .html {
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+} */
 
 .main-body {
   font-size: 14px;
   height: 100vh;
-}
 
+}
 .menu {
   position: fixed;
+  position: bottom;
   bottom: 0;
   left: 0;
   height: 50px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .tab-bar {
@@ -352,16 +614,33 @@ border-radius: 7px;
   margin: 0;
   padding: 0;
 
+
   width: 100%;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+
 }
 
+
+.tab-bar-item {
+  color: #C5B3A0
+}
 
 .tab-bar-item a {
   display: inline-block;
-
-
+  color: inherit
 }
+
+#rectblanc {
+  width  : 100px;
+  height : 50px;
+  background : green;
+  position: fixed;
+  position: bottom;
+}
+
+
+/*--------------------------- PAge DIrect*/
